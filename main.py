@@ -1,5 +1,10 @@
-#REMOVE PASS AND FIX THIS FUNCTION
-def palindrome(word):
-    pass
+word = input()
 
-#YOUR CODE GOES HERE
+def palindrome(word):
+    word = word.lower().replace("","")
+    if word == word [::-1]:
+        return True
+    else:
+        return False
+
+print(palindrome(word))
