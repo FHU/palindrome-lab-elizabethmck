@@ -1,5 +1,3 @@
-word = input()
-
 def palindrome(word):
     word = word.lower().replace("","")
     if word == word[::-1]:
@@ -7,4 +5,7 @@ def palindrome(word):
     else:
         return False
 
-print(palindrome(word))
+print(palindrome())
+
+if __name__ == '__main__':
+    word = input()
