@@ -5,7 +5,7 @@ def palindrome(word):
     else:
         return False
 
-print(palindrome())
+print(palindrome(word))
 
 if __name__ == '__main__':
     word = input()
